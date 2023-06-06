@@ -48,7 +48,7 @@ const Navbar = () => {
                 handleLinkClick(link.url);
               }}
             >
-              <a href={`#${link.id}`} target="_blank" rel="noopener noreferrer">{link.title}</a>
+              <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
@@ -79,7 +79,7 @@ const Navbar = () => {
                     handleLinkClick(link.url);
                   }}
                 >
-                  <a href={`#${link.id}`} target="" rel="noopener noreferrer">{link.title}</a>
+                  <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
             </ul>

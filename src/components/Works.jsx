@@ -33,9 +33,9 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute inset-0 flex justify-end m-3 card-img_hover cursor-pointer' 
+              onClick={() => window.open(source_code_link, "_blank")}>
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
@@ -78,7 +78,7 @@ const Works = () => {
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-7xl leading-[30px]'
+          className='mt-3 text-secondary text-[20px] max-w-7xl leading-[30px]'
         >
           Bellow, you'll find some of the projects I've developed as a Multimedia Engineer, I've put great effort into each of them to showcase my skills and create a positive impression. Please, note that I am currently feeding this site, so there are more projects to polish and to be displayed over time.
         </motion.p>

@@ -27,6 +27,9 @@ import uao from "./company/UAO-logo-simple.png";
 import solinglosas from "./company/solinglosas.png";
 
 import carrent from "./carrent.png";
+import casuality from "./casuality.png";
+import arbre from "./arbre.png";
+import ardu from "./ardu.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -57,6 +60,9 @@ export {
   uao,
   solinglosas,
   carrent,
+  casuality,
+  ardu,
+  arbre,
   jobit,
   tripguide,
 };

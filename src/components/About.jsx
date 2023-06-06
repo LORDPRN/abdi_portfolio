@@ -46,9 +46,9 @@ const About = () => {
       </motion.div>
         <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-7xl leading-[30px]'
+        className='mt-4 text-secondary text-[20px] max-w-7xl leading-[30px]'
         >
-          I'm a last semester Multimedia Eng. student passionate about Front-End development and UI/UX Design. I consider myself as creative, dedicated and flexible. I have great communication skills either Spanish or <a href="https://www.efset.org/cert/UCSgeF" style={underlineStyle} target="_blank" rel="noopener noreferrer" className="text-[#00b8c6]"><span className="text-[#00b8c6]">English</span></a><a href="https://www.efset.org/cert/UCSgeF">🔗</a>. I strive to meet diverse needs through digital solutions that add value for users.
+          I'm a passionate about Front-End development and UI/UX Design. I consider myself as creative, dedicated and adaptable when technologies it's about. Also, I have great communication skills either Spanish or <a href="https://www.efset.org/cert/UCSgeF" style={underlineStyle} target="_blank" rel="noopener noreferrer" className="text-[#00b8c6]"><span className="text-[#00b8c6]">English</span></a><a href="https://www.efset.org/cert/UCSgeF">🔗</a>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

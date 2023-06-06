@@ -21,6 +21,9 @@ import {
     solinglosas,
     aame,
     carrent,
+    arbre,
+    ardu,
+    casuality,
     jobit,
     tripguide,
   } from "../assets";
@@ -38,6 +41,11 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "cv",
+      title: "CV 📄",
+      url: "https://drive.google.com/file/d/1yRlz--YS4EIsz3DfRnFBADi4PW_ZrssR/view?usp=sharing"
+    }
   ];
   
   const services = [
@@ -212,7 +220,7 @@ import {
     {
       name: "CRIS UAO",
       description:
-        "VIVO's UI redesign according to the Autónoma de Occidente standars and patterns in order to improve usability and user experience.",
+        "'CRIS UAO' is an UI redesign according to the Autónoma de Occidente standars and patterns, in order to improve usability and UX.",
       tags: [
         {
           name: "Figma",
@@ -236,16 +244,58 @@ import {
       source_code_link: "https://youtu.be/wvozyYr3qCE",
     },
     {
-      name: "ASTROWORLD FESTIVAL",
+      name: "Image Classificator",
       description:
-        "This project is a landing page for a Musical Festival where I put in practice UI Design, Animations and forms. I followed the client's 'wireframe'.",
+        "'Image Classificator' is a demostration of artificial intelligence application in mobile and embedded devices.",
       tags: [
         {
-          name: "HTML",
+          name: "Arduino",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Proteus",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: ardu,
+      source_code_link: "https://youtube.com/shorts/aKbzTUFaCas?feature=share",
+    },
+    {
+      name: "Ariabaku Station",
+      description:
+        "'Ariabaku Station' is an Endless runner videogame about 'Leo', You have to run as far as you can to escape from the ghost station.",
+      tags: [
+        {
+          name: "C-Sharp",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Adobe Ps",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Unity",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://youtu.be/uDwfJdPum3Q",
+    },
+    {
+      name: "ASTROWORLD FESTIVAL",
+      description:
+        "'ASTROWOLD FESTIVAL' is a landing page to practice UI Design, Animations and forms following a client's 'wireframe'.",
+      tags: [
+        {
+          name: "Html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Css",
           color: "blue-text-gradient",
         },
         {
@@ -257,25 +307,42 @@ import {
       source_code_link: "https://youtu.be/lgd5xvXXq0Q",
     },
     {
-      name: "Ariabaku Station",
+      name: "The Hope of Arbre",
       description:
-        "This is an Endless runner videogame about 'Leonardo', who's trying to escape from a Ghost Station called 'Ariabaku', help him to run as far as you can!",
+        "THOA is a transmedia narrative about two orphan brothers in the magical Arbre Kingdom, where blood lineage and magic play crucial roles.",
       tags: [
         {
-          name: "C Sharp",
-          color: "blue-text-gradient",
+          name: "Adobe Ps",
+          color: "pink-text-gradient",
         },
         {
-          name: "Adobe PS",
+          name: "Adobe Il",
           color: "green-text-gradient",
         },
         {
-          name: "Unity",
-          color: "pink-text-gradient",
+          name: "Adobe Pr",
+          color: "blue-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://youtu.be/uDwfJdPum3Q",
+      image: arbre,
+      source_code_link: "https://youtu.be/Noh_Q_1dUJU",
+    },
+    {
+      name: "Casualidad",
+      description:
+        "'Casualidad' is a transmedia narrative that uses digital media like podcasts, interactive videos, and storyboards to unfold its story and create value for the audience.",
+      tags: [
+        {
+          name: "Adobe Ps",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Adobe Pr",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: casuality,
+      source_code_link: "https://youtu.be/jyIQDgh5EAE",
     },
   ];
   

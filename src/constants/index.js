@@ -285,65 +285,7 @@ import {
       image: tripguide,
       source_code_link: "https://youtu.be/uDwfJdPum3Q",
     },
-    {
-      name: "ASTROWORLD FESTIVAL",
-      description:
-        "'ASTROWOLD FESTIVAL' is a landing page to practice UI Design, Animations and forms following a client's 'wireframe'.",
-      tags: [
-        {
-          name: "Html",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Css",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "orange-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://youtu.be/lgd5xvXXq0Q",
-    },
-    {
-      name: "The Hope of Arbre",
-      description:
-        "THOA is a transmedia narrative about two orphan brothers in the magical Arbre Kingdom, where blood lineage and magic play crucial roles.",
-      tags: [
-        {
-          name: "Adobe Ps",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Adobe Il",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Adobe Pr",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: arbre,
-      source_code_link: "https://youtu.be/Noh_Q_1dUJU",
-    },
-    {
-      name: "Casualidad",
-      description:
-        "'Casualidad' is a transmedia narrative that uses digital media like podcasts, interactive videos, and storyboards to unfold its story and create value for the audience.",
-      tags: [
-        {
-          name: "Adobe Ps",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Adobe Pr",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: casuality,
-      source_code_link: "https://youtu.be/jyIQDgh5EAE",
-    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

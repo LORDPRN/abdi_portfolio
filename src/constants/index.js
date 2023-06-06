@@ -44,7 +44,7 @@ import {
     {
       id: "cv",
       title: "CV 📄",
-      url: "https://drive.google.com/file/d/11qZZ08lSvXa602u6KtHMx4JL1pZjB623/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1fNfE6GvhmoUahs11h5JKqTT6mnPe_Xpk/view?usp=sharing"
     }
   ];
   

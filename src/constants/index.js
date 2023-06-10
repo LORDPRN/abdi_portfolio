@@ -43,7 +43,7 @@ import {
     },
     {
       id: "cv",
-      title: "CV 📄",
+      title: "CV",
       url: "https://drive.google.com/file/d/1Q6TX8z2cUhdJMVjl4A0ungPJ1anDvWvu/view?usp=sharing"
     }
   ];
@@ -218,6 +218,27 @@ import {
   
   const projects = [
     {
+      name: "CRIS UAO | High fidelity",
+      description:
+        "Design for CRIS UAO UI, targeting the users needs to facilitate and manage research content.",
+      tags: [
+        {
+          name: "Figma",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Adobe PS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Usability Tests",
+          color: "green-text-gradient",
+        },
+      ],
+      image: ardu,
+      source_code_link: "https://www.figma.com/proto/ofiOvljDfs5LYOJVyAbban/VIVO-UAO?node-id=373-3385&starting-point-node-id=373%3A3385&scaling=scale-down-width&hide-ui=1",
+    },
+    {
       name: "CRIS UAO",
       description:
         "'CRIS UAO' is an UI redesign according to the Autónoma de Occidente standars and patterns, in order to improve usability and UX.",
@@ -242,27 +263,6 @@ import {
       ],
       image: carrent,
       source_code_link: "https://youtu.be/wvozyYr3qCE",
-    },
-    {
-      name: "Image Classificator",
-      description:
-        "'Image Classificator' is a demostration of artificial intelligence application in mobile and embedded devices.",
-      tags: [
-        {
-          name: "Arduino",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Python",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Proteus",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: ardu,
-      source_code_link: "https://youtube.com/shorts/aKbzTUFaCas?feature=share",
     },
     {
       name: "Ariabaku Station",

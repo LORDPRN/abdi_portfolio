@@ -15,7 +15,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className="text-[#915eff]">Abdiel.</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>A Multimedia Eng. student skilled in problem-solving through digital solutions based on the user. 😺</p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I love to solve problems through eye-catching digital solutions based on the user to bring value. 👩🏽‍💻</p>
 
 
         </div>

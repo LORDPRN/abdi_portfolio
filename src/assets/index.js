@@ -3,7 +3,7 @@ import games from "./controller.png";
 import digitalart from "./pentablet.png";
 import uiux from "./webdesign.png";
 import webdev from "./webdev.png";
-import github from "./youtube.png";
+import github from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,7 +29,7 @@ import solinglosas from "./company/solinglosas.png";
 import carrent from "./carrent.png";
 import casuality from "./casuality.png";
 import arbre from "./arbre.png";
-import ardu from "./ardu.png";
+import ardu from "./figma.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 

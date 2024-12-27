@@ -1,15 +1,17 @@
-import React, { Suspense, lazy } from 'react';
-
-// Importa el componente Spline usando lazy
-const LazySpline = lazy(() => import('@splinetool/react-spline'));
+import React, { useEffect } from "react";
 
 const Computers = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.type = "module";
+    script.src =
+      "https://unpkg.com/@splinetool/viewer@1.9.54/build/spline-viewer.js";
+    document.body.appendChild(script);
+  }, []);
+
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      {/* Renderiza el componente LazySpline */}
-      <LazySpline scene="https://prod.spline.design/AmBis8JxDSKSYXCy/scene.splinecode" />
-    </Suspense>
+    <spline-viewer url="https://prod.spline.design/AmBis8JxDSKSYXCy/scene.splinecode"></spline-viewer>
   );
-}
+};
 
 export default Computers;
